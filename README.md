@@ -1,4 +1,4 @@
-# RudderStack-Backend
+# RudderStack_UI
 
 * Clone the repo into your local system using "git clone [https://github.com/panda-satyabrata/RudderStack-Backend.git](https://github.com/panda-satyabrata/RudderStack_UI.git)"
 * Open the project in a IDE (VisualStudio Code)
