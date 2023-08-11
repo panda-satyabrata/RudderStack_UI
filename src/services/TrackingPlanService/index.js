@@ -12,9 +12,10 @@ export class TrackingPlanService {
         }
     }
 
-    async saveTrackingDetails(data) {
+    async saveTrackingDetails(trackingData) {
+        debugger
         try{
-            const response = await axios.post(`http://localhost:8081/api/v1/trackingplan`, data)
+            const response = await axios.post(`http://localhost:8081/api/v1/trackingplan`, trackingData)
             const {data} = response
             return data;
         } catch (e) {
